@@ -8,7 +8,11 @@ from skimage.color import label2rgb
 from skimage.filters import threshold_otsu
 from skimage.segmentation import clear_border
 
+<<<<<<< HEAD
 image = io.imread('1.jpg', as_grey=True)
+=======
+image = io.imread('/home/sh/PycharmProjects/sunspots/data/hmi sunspots/1.tif', as_grey=True)
+>>>>>>> 2f795c852f119d824a141e8fd942e7fc45697713
 
 
 #bw = closing(image > thresh, square(3))
