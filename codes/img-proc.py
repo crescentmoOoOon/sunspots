@@ -8,7 +8,7 @@ from skimage.color import label2rgb
 from skimage.filters import threshold_otsu
 from skimage.segmentation import clear_border
 
-image = io.imread('/home/revolt/Documents/mycodes/sunspots/data/KP/magnetogram-sep2017/1.tif', as_grey=True)
+image = io.imread('1.jpg', as_grey=True)
 
 
 #bw = closing(image > thresh, square(3))
